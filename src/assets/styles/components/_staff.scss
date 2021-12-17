@@ -1,0 +1,21 @@
+.staff {
+  @apply flex flex-row gap-2 justify-center flex-wrap;
+}
+.staff__person {
+  @apply border border-secondary rounded-md bg-white md:w-1/4 sm:w-full xl:w-1/5 hover:shadow-2xl
+}
+.staff__data {
+  @apply p-4;
+}
+.staff__name {
+  @apply font-light opacity-80;
+}
+.staff__photo {
+  @apply w-full rounded-t-sm;
+}
+.staff__character {
+  @apply font-light text-2xl;
+}
+.staff__text {
+  @apply text-sm pt-2;
+}

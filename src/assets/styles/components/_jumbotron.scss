@@ -1,0 +1,15 @@
+.jumbotron {
+  @apply bg-primary bg-article-jumbotron bg-primary px-6 md:px-16 py-72 bg-cover bg-no-repeat bg-top text-white;
+}
+.jumbotron__inner {
+  @apply container space-y-2
+}
+.jumbotron__title {
+  @apply font-light text-5xl
+}
+.jumbotron__lead {
+  @apply font-light text-2xl py-4
+}
+.jumbotron__text {
+  @apply italic pt-4
+}

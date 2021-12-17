@@ -1,0 +1,18 @@
+.header {
+  @apply bg-primary text-secondary flex flex-row p-5 justify-between font-light items-center
+}
+.header__title {
+  @apply p-3 m-0 font-light bg-logo-header bg-contain bg-center bg-no-repeat text-transparent
+}
+.header__menu {
+  @apply hidden md:block
+}
+.header__menulist {
+  @apply flex flex-row text-sm
+}
+.header__menulistitem {
+  @apply p-2
+}
+.header__hamburger {
+  @apply p-2 border-2 border-secondary cursor-pointer md:hidden
+}
